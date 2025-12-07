@@ -1,10 +1,10 @@
 export default function Home() {
   return (
     <div className="min-h-screen bg-zinc-50 dark:bg-black flex items-center justify-center p-6">
-      <main className="w-full max-w-4xl bg-white dark:bg-zinc-900 rounded-xl shadow-md p-8 md:p-12 flex flex-col md:flex-row gap-8 items-center md:items-start">
-        <aside className="w-36 flex-shrink-0 mx-auto md:mx-0">
+      <main className="w-full max-w-4xl bg-white dark:bg-zinc-900 rounded-xl shadow-md p-8 md:p-12 flex flex-col md:flex-row gap-8 items-start">
+        <aside className="w-full flex justify-center md:w-36 md:shrink-0 md:justify-start">
           <img
-            src="/profile.svg"
+            src="/hajja.jpeg"
             alt="Zainab Bobboi"
             className="w-36 h-36 rounded-full ring-2 ring-white dark:ring-zinc-900 object-cover shadow-sm mb-4 md:mb-0"
           />
