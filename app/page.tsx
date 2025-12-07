@@ -1,24 +1,24 @@
 export default function Home() {
   return (
     <div className="min-h-screen bg-zinc-50 dark:bg-black flex items-center justify-center p-6">
-      <main className="w-full max-w-4xl bg-white dark:bg-zinc-900 rounded-xl shadow-md p-8 md:p-12 flex gap-8 items-start">
-        <aside className="w-36 flex-shrink-0">
+      <main className="w-full max-w-4xl bg-white dark:bg-zinc-900 rounded-xl shadow-md p-8 md:p-12 flex flex-col md:flex-row gap-8 items-center md:items-start">
+        <aside className="w-36 flex-shrink-0 mx-auto md:mx-0">
           <img
             src="/profile.svg"
             alt="Zainab Bobboi"
-            className="w-36 h-36 rounded-full ring-2 ring-white dark:ring-zinc-900 object-cover shadow-sm"
+            className="w-36 h-36 rounded-full ring-2 ring-white dark:ring-zinc-900 object-cover shadow-sm mb-4 md:mb-0"
           />
         </aside>
 
         <div className="flex-1">
-          <header>
+          <header className="text-center md:text-left">
             <h1 className="text-2xl md:text-3xl font-semibold text-foreground dark:text-zinc-50">
               Zainab Gidado Bobbo
             </h1>
             <p className="mt-1 text-sm text-zinc-600 dark:text-zinc-300">
               Economics — Finance Professional
             </p>
-            <div className="mt-3 flex flex-wrap gap-3">
+            <div className="mt-3 flex flex-wrap gap-3 justify-center md:justify-start">
               <a
                 href="mailto:zainab@example.com"
                 className="px-3 py-2 rounded-md bg-blue-600 text-white text-sm hover:bg-blue-700"
